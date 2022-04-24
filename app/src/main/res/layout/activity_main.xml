@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232"
+    tools:context=".MainActivity"
+    android:backgroundTint="@color/green">
+
+
+    <TextView
+        android:id="@+id/facedetection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="44dp"
+        android:fontFamily="@font/rhdbold"
+        android:paddingEnd="3dp"
+        android:paddingBottom="4dp"
+        android:text="Face Detection"
+        android:textColor="@color/black"
+        android:textSize="27dp" />
+
+    <TextView
+        android:layout_width="238dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginEnd="86dp"
+        android:gravity="center"
+        android:text="LetsGrowMore"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/camera_btn"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="136dp"
+        android:backgroundTint="@color/red"
+        android:fontFamily="@font/sourcesansprosemibolditalic"
+        android:padding="15dp"
+        android:text="Tap to Open Camera"
+        android:textAllCaps="true" />
+
+    <ImageView
+        android:id="@+id/scanface"
+        android:layout_width="329dp"
+        android:layout_height="257dp"
+        android:layout_below="@+id/facedetection"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="180dp"
+        app:srcCompat="@drawable/img" />
+
+
+</RelativeLayout>
